@@ -1,0 +1,19 @@
+{
+  "name": "amp-toolbox-optimizer-worker",
+  "version": "1.0.0",
+  "description": "Wrapper around amp-toolbox-optimizer for use in CloudFlare workers",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ampproject/toolbox-optimizer": "^1.0.1",
+    "jimp": "^0.6.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
